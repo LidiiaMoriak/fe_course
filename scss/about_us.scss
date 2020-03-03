@@ -1,0 +1,40 @@
+$background-color: rgb(255, 228, 228);
+body{
+    font-family: 'Spartan', sans-serif;
+}
+header{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-right: 120px;
+    div{
+        :nth-child(2){
+            color: rgb(170, 42, 42);
+        }
+        :last-child{
+            color: grey;
+            font-size: 15px;
+            border: green 1px solid;
+        }
+    }
+}
+#number{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(46, 42, 42, 0.849);
+}
+.fa-phone-volume{
+    color: rgb(10, 88, 10);
+}
+.fa-toggle-off{
+    color: rgb(10, 88, 10);
+    font-size: 25px;
+}
+header:first-child{
+    border: 1px solid black;
+    align-items: center;
+    vertical-align: middle;
+}

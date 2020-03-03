@@ -1,0 +1,42 @@
+/* line 2, scss/about_us.scss */
+body {
+  font-family: 'Spartan', sans-serif; }
+
+/* line 5, scss/about_us.scss */
+header {
+  padding-top: 20px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 120px;
+  margin-top: 50px;
+  margin-right: 120px; }
+  /* line 14, scss/about_us.scss */
+  header div :nth-child(2) {
+    color: #aa2a2a; }
+  /* line 17, scss/about_us.scss */
+  header div :last-child {
+    color: grey;
+    font-size: 15px;
+    border: green 1px solid; }
+
+/* line 24, scss/about_us.scss */
+#number {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(46, 42, 42, 0.849); }
+
+/* line 29, scss/about_us.scss */
+.fa-phone-volume {
+  color: #0a580a; }
+
+/* line 32, scss/about_us.scss */
+.fa-toggle-off {
+  color: #0a580a;
+  font-size: 25px; }
+
+/* line 36, scss/about_us.scss */
+header:first-child {
+  border: 1px solid black;
+  align-items: center;
+  vertical-align: middle; }
